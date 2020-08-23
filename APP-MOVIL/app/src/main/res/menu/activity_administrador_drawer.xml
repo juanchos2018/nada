@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:title="PrincipalAdministrador">
+        <menu>
+            <item
+                android:id="@+id/nav_unidades"
+                android:icon="@drawable/ic_baseline_add_circle_outline_24"
+                android:title="@string/gestionar_unidades" />
+            <item
+                android:id="@+id/nav_productos_gestionar"
+                android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+                android:title="@string/productos" />
+            <item
+                android:id="@+id/nav_personal"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="@string/gestionar_personal"
+                />
+            <item
+                android:id="@+id/nav_horarios"
+                android:icon="@drawable/ic_baseline_access_time_24"
+                android:title="@string/horarios" />
+            <item
+                android:id="@+id/nav_cerrarseion"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="@string/cerrar_sesi_n" />
+        </menu>
+    </item>-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_unidades"
+            android:icon="@drawable/ic_baseline_add_circle_outline_24"
+            android:title="@string/gestionar_unidades" />
+        <item
+            android:id="@+id/nav_productos_gestionar"
+            android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+            android:title="@string/productos" />
+        <item
+            android:id="@+id/nav_personal"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/gestionar_personal"
+            />
+        <item
+            android:id="@+id/nav_horarios"
+            android:icon="@drawable/ic_baseline_access_time_24"
+            android:title="@string/horarios" />
+        <item
+            android:id="@+id/nav_cerrarseion"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/cerrar_sesi_n" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Comunicate con nosotros">
+            <menu>
+                <item
+                    android:id="@+id/AcercaDe"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Acerca de ..."/>
+                <item
+                    android:id="@+id/nav_compartir"
+                    android:icon="@drawable/ic_menu_car"
+                    android:title="Compartir"/>
+                <item
+                    android:id="@+id/nav_notificar"
+                    android:icon="@drawable/ic_menu_car"
+                    android:title="Notificacion"/>
+            </menu>
+
+        </item>
+    </group>
+
+    <item android:title="Acciones adicionales">
+        <menu>
+            <item
+                android:id="@+id/Pro_seg"
+                android:title="Protocolo"
+                android:icon="@drawable/ic_menu_user"/>
+            <item
+                android:id="@+id/nav_salir"
+                android:title="Salir"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+        </menu>
+    </item>
+</menu>

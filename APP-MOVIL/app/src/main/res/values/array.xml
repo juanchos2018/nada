@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zona">
+        <item>Seleccione Zona</item>
+        <item>Alto de la Alianza</item>
+        <item>Ciudad Nueva</item>
+        <item>Coronel Gregorio Albarracín Lanchipa</item>
+        <item>Inclan</item>
+        <item>La Yarada-Los Palos</item>
+        <item>Pachia</item>
+        <item>Palca</item>
+        <item>Pocollay</item>
+        <item>Sama</item>
+        <item>Tacna</item>
+    </string-array>
+
+    <string-array name="categoriaproducto">
+        <item>Verduras</item>
+        <item>Abarrotes</item>
+        <item>Carnes</item>
+    </string-array>
+
+    <string-array name="tipoUsuario">
+        <item>Seleccione Tipo Usuario</item>
+        <item>Administrador</item>
+        <item>Cliente</item>
+    </string-array>
+
+
+    <string-array name="cargos">
+        <item>Chofer</item>
+        <item>Copiloto</item>
+        <item>Otro</item>
+    </string-array>
+
+
+    <string-array name="tipoUsuarios">
+        <item>Seleccione Tipo Usuario</item>
+        <item>Cliente</item>
+        <item>Administrador</item>
+    </string-array>
+
+
+    <string-array name="tipoEstadoUnidad">
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Rojo</item>
+    </string-array>
+
+
+
+
+</resources>
